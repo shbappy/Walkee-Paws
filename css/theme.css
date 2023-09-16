@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    background: url("../images/banner.jpg") center no-repeat;
+    background-size: cover;
+    padding:40px 0px 150px 0px;
+    text-align: center;
+    
+}
+.menu{
+     position: relative;
+    right: 4%;
+}
+
+.menu .logo img{
+    width: 160px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav h1{
+    font-size: 58px;
+    color: #fff;
+    position: relative;
+    top: 20px;
+}
+
+ 
+.nav h3{
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 215px;
+    position: relative;
+    top: 40px;
+}
+
+.menu .nav a{
+    display: flex;
+    gap: 4px;
+    padding: 13px 26px;
+    background: #FF7062;
+    text-align: center;
+    outline: none;
+    border: 1px solid #FF7062;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+.menu .nav .btn{
+    position: relative;
+    top: 65px;
+}
+
+.menu .nav a:hover{
+    background: #6B706D;
+    color: #fff;
+    border: 1px solid #6B706D;
+}
+
+.menu .nav i{
+    font-size: 20px;
+}
+
+/* second section---------------------------------------- */
+.second{
+    background: #0AB7E8;
+    padding: 35px 0px 30px 0px;
+}
+
+.second .brand{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.brand .name{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+} 
+
+.name img{
+    width: 170px;
+}
+
+.name h3{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+}
+/* third section--------------------------- */
+.third{
+    padding: 20px 0px 100px 0px;
+    background: #fff;
+    
+}
+
+.third .third-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-one .details{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10%;
+}
+
+.details h2{
+    font-size: 40px;
+    line-height: 55px;
+
+}
+
+.details p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #3b3939;
+    padding-right: 366px;
+    margin-top: 30px;
+}
+
+
+.third-one .details-btn{
+    position: relative;
+    left: 24%;
+    top: 45px;
+
+}
+
+.third-one .details-btn h4{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #3b3939;
+}
+
+.third-one .details-btn a{
+    padding: 15px 26px;
+    background: #FF7062;
+    text-align: center;
+    outline: none;
+    border: 1px solid #FF7062;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.third-one .details-btn a:hover{
+    background: #6B706D;
+    color: #fff;
+    border: 1px solid #6B706D;
+
+}
+
+.third-one .details-btn a i{
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.third-one .third-img img{
+    position: relative;
+    right: 30%;
+    top: 71px;
+}
+
+.third .third-two{
+    padding: 80px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.third-two .details{
+    position: relative;
+    left: 11%;
+    top: 15px;
+}
+
+.third-two .details h3{
+    font-size: 40px;
+    line-height: 55px;
+    color: #141414;
+}
+
+.third-two .third-img img{
+    width: 370px;
+    position: relative;
+    top: 30px;
+    right: 78%;
+}
+
+
+/* fourth section----------------------------- */
+.fourth{
+    background: #0AB7E8;
+    padding: 40px 0px 55px 0px;
+}
+
+.fourth .brand{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+}
+
+
+.fourth .brand .name{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+} 
+
+.fourth .name i{
+    color: white;
+    font-size: 50px;
+}
+
+.fourth .name h3{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* fifth section------------------------------------- */
+.fifth{
+    width: 100%;
+    padding: 80px 0px;
+    background:#F9F9F9 ;
+}
+
+.fifth .fifth-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.fifth .fifth-one .details{
+    position: relative;
+    left: 5%;
+}
+
+.fifth .fifth-one .details h2{
+    font-size: 30px;
+    line-height: 57px;
+     color: #24272A;
+}
+
+.fifth .fifth-one .details p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #3b3939;
+    line-height: 27px;
+}
+
+.fifth .fifth-one .fifth-image img{
+    position: relative;
+    right: 40%;
+    width: 510px;
+}
+/* ------------------------ */
+.fifth .fifth-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+}
+
+.fifth .fifth-two .fifth-image{
+    position: relative;
+    left: 165px;
+}
+
+.fifth .fifth-two .details{
+    display: flex;
+    flex-direction: column;
+    margin-right: -145px;
+}
+
+.fifth .fifth-two .details h2{
+    font-size: 30px;
+    line-height: 57px;
+     color: #24272A;
+}
+
+.fifth .fifth-two .details p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #3b3939;
+    line-height: 27px;
+}
+
+.fifth .fifth-two .fifth-image img{
+    width: 575px;
+}
+/* ----------------- */
+
+.fifth-three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth-three .details{
+    position: relative;
+    right: 40px;
+}
+
+.fifth-three .details h2{
+    font-size: 38px;
+    line-height: 55px;
+    color: #24272A;
+}
+
+.fifth-three .details-btn{
+    position: relative;
+    left: 45%;
+    top: 42px;
+
+}
+
+.fifth-three .details-btn h4{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #3b3939;
+}
+
+.fifth-three .details-btn a{
+    padding: 15px 26px;
+    background: #FF7062;
+    text-align: center;
+    outline: none;
+    border: 1px solid #FF7062;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.fifth-three .details-btn a:hover{
+    background: #6B706D;
+    color: #fff;
+    border: 1px solid #6B706D;
+
+}
+
+.fifth-three .details-btn a i{
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.fifth-three .fifth-image img{
+    width: 300px;
+    height: auto;
+    position: relative;
+    right: 43%;
+    top: 30px;
+}
